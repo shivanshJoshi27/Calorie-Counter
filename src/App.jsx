@@ -5,7 +5,7 @@ const App = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [loading, setLoading] = useState(false);
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyB6sXR3UmBZi8usADWMcb-nRTXm_T2wvcg"
+    "YOUR_API_KEY"
   );
  
   async function fileToGenerativePart(file) {
